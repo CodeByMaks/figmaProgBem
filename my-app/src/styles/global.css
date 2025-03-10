@@ -1,0 +1,803 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    max-width: 1530px;
+    margin: auto;
+}
+
+/* Start navbar style */
+
+header{
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+
+.header--overlay{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5));
+}
+
+.header__navbar{
+    width: 70%;
+    margin: auto;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__navbar-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    font-size: 17px;
+}
+
+.button{
+    padding: 15px 35px;
+    font-size: 17px;
+    color: white;
+    border-radius: 10px;
+}
+
+.button--green{
+    background-color: #07AF91;
+}
+
+.button--blue{
+    background: linear-gradient(to right, #61B5E4, #197EB7);
+}
+
+.header__container{
+    width: 70%;
+    margin: auto;
+    padding: 100px 0px;
+}
+
+.header__box{
+    width: 700px;
+    height: 350px;
+}
+
+.header__title--subtext{
+    padding: 5px 10px;
+    background-color: #07AF91;
+}
+
+.header__title{
+    font-size: 40px;
+}
+
+.header__text{
+    font-size: 30px;
+    padding: 20px 0px;
+}
+
+/* Navbar style ended */
+
+.title__sections{
+    width: 70%;
+    margin: auto;
+    padding-top: 100px;
+    font-size: 50px;
+    color: #1178B2;
+}
+
+.title__sections__forOther{
+    margin: auto;
+    font-size: 50px;
+    padding: 20px 0px;  
+    color: #1178B2;
+}
+
+.section{
+    width: 70%;
+    margin: auto;
+    padding: 100px 0px;
+}
+
+.section__analytics--right{
+    display: flex;
+    gap: 50px;
+    flex-direction: row-reverse;
+}
+
+.section__analytics--left{
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+}
+
+.section__analytics__title{
+    font-size: 30px;
+    color: #1178B2;
+}
+
+.section__analytics__box{
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+.section__analytics__text{
+    font-size: 20px;
+    color: gray;
+}
+
+.section__recomended{
+    display: flex;
+    gap: 30px;
+}
+
+.container{
+    width: 350px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.section__market{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.section__market__box{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+}
+
+.section__market__box__title{
+    font-size: 40px;
+    background-color: #07AF91;
+}
+
+.section__market__box__text{
+    font-size: 23px;
+}
+
+.section__dealmarket__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section__dealmarket__items{
+    background-color: rgb(217, 216, 216);
+    width: 300px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.section__dealmarket__items p{
+    font-weight: bold;
+    color: rgb(75, 74, 74);
+}
+
+.section__dealmarket__items--bgblue{
+    background-color: #88BBD8;
+}
+
+.section__dealmarket__items--bgblue p {
+    color: white;
+}
+
+.section__dealmarket__rightbox{
+    width: 650px;
+    height: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.section__dealmarket__leftbox{
+    width: 345px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+.section__dealmarket__leftbox__title{
+    font-size: 35px;
+}
+
+.section__dealmarket__leftbox__title--green{
+    color: #07AF91;
+}
+
+.section__dealmarket__leftbox__text{
+    font-size: 22px;
+    color: gray;
+}
+
+.section__dealmarket__container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.section__dealmarket__rightbox__item{
+    width: 289px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    color: gray;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+}
+
+.section__dealmarket__rightbox__item--bgblue{
+    background-color: #1178B2;
+    color: white;
+}
+
+.section__accelerator__container{   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px;
+    gap: 30px;
+}
+
+.section__accelerator__video, .section__accelerator__video__img{
+    width: 100%;
+}
+
+.section__change__title {
+    color: #1178b2;
+    font-size: 35px;
+    margin-bottom: 33px;
+}
+
+.section__change__first {
+    box-shadow: 0 0px 20px rgb(223, 221, 221);
+    padding: 20px;
+}
+
+.section__change__first-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.section__change__first-title {
+    font-size: 17px;
+}
+
+.section__change__first-img {
+    width: 22px;
+}
+
+.section__change__text {
+    color: #817f7f;
+    padding: 20px 0;
+    border-top: 1px solid rgb(240, 235, 235);
+}
+
+.section__change__pre {
+    color: #2a79c2;
+    padding: 20px 0;
+    border-top: 1px solid rgb(233, 227, 227);
+}
+
+.section__change__light {
+    color: #2a79c2;
+}
+
+.section__change__two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0px 15px rgb(223, 221, 221);
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.section__change__two-title {
+    font-size: 17px;
+}
+
+.section__change__two-img {
+    width: 22px;
+}
+
+.section__change__day {
+    display: flex;
+    color: #2a79c2;
+}
+
+.section_change_container_button{
+    padding: 20px 0px;
+}
+
+.container__accelerator{
+    width: 380px;
+    height: 284px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+}
+
+.section__partner{
+    width: 100%;
+    background-image: url('../assets/Group 796.png');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.section__partner__container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+}
+
+.section__partner__box{
+    width: 556px;
+    height: 323px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+.section__partner__text{
+    font-size: 25px;
+    color: rgb(215, 214, 214);
+}
+
+.section__partner__title{
+    font-size: 40px;
+}
+
+.section__numbers{
+    width: 85%;
+    margin: auto;
+}
+
+.section__numbers__container{
+    width: 100%;
+    display: flex;
+    padding: 20px 0px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.section9 {
+    margin: 100px 19% 20px 19%;
+}
+
+.section9 h2 {
+    font-size: 40px;
+    color: #1178b2;
+}
+
+.section99 {
+    display: flex;
+    width: 37%;
+    flex-direction: column;
+    margin-top: 22px;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgb(192, 191, 191);
+}
+
+.sub {
+    font-size: 13px;
+    color: rgb(58, 55, 55);
+    padding: 10px 10px 0 10px;
+}
+  
+.b {
+    font-size: 18px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+ 
+.section99 h4 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+.section9 .div {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+ 
+.section99 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+ 
+.section99 button {
+    background: #61b5e4;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+.blue {
+    color: #1178b2;
+}
+
+.section__whous{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    font-size: 18px;
+    color: gray;
+    align-items: center;
+}
+
+.section__whous__text{
+    padding: 50px 0px;
+}
+
+.section__man{
+    box-shadow: 0px 0px 10px rgb(179, 178, 178);
+    border-radius: 15px;    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section__man__text{
+    width: 550px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section__img{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+}
+
+  .section13 {
+    background-image: url("../assets/Rectangle 1992.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .section13::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  .section13 * {
+    position: relative;
+    z-index: 2;
+  }
+  .section13 h2 {
+    color: white;
+    padding: 20px 20%;
+    font-size: 33px;
+    text-align: center;
+  }
+  .section13 p {
+    color: rgb(199, 190, 190);
+    padding: 10px 25%;
+    text-align: center;
+  }
+  .section13 button {
+    background: #1178b2;
+    border: none;
+    padding: 20px 50px;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+.experts {
+    margin: 50px 10%;
+    overflow: hidden;
+}
+.experts__title {
+    color: #1178b2;
+    font-size: 29px;
+    text-align: start;
+}
+.experts__list {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+.experts__card {
+    width: 80%;
+    text-align: center;
+}
+.experts__image {
+    width: 100%;
+}
+.experts__name {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.experts__description {
+    font-size: 15px;
+    line-height: 1.5;
+    color: gray;
+    padding-top: 10px;
+}
+ 
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.footer__box{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 35px;
+    font-size: 17px;
+}
+
+.footer__text{
+    color: rgb(182, 181, 181);
+    padding: 10px 0px;
+}
+
+.footer__right{
+    color: rgb(182, 181, 181);
+}
+
+.footer__email{
+    padding: 10px 0px;
+}
+
+
+@media(max-width: 768px){
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .header__navbar{
+        width: 90%;
+    }
+
+    .header__navbar-list{
+        display: none;
+    }
+    .header__container{
+        width: 90%;
+    }
+    .header__box{
+        width: 100%;
+    }
+    .header__title{
+        font-size: 30px;
+    }
+    .section{
+        width: 90%;
+        height: auto;
+        padding: 15px 0px;
+    }
+    .title__sections{
+        font-size: 30px;
+    }
+    .section__analytics{
+        width: 90%;
+    }
+    .section__analytics__box{
+        width: 100%;
+        height: auto;
+    }
+    .section__analytics--right{
+        width: 90%;
+        flex-direction: column;
+    }
+    .section__analytics--left{
+        width: 90%;
+        flex-direction: column;
+    }
+    .section__recomended{
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+    }
+    .container{
+        width: 80%;
+    }
+    .section__market__box__title{
+        font-size: 20px;
+    }
+    .section__dealmarket{
+        width: 90%;
+    }
+    .section__dealmarket__box{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .section__dealmarket__container{
+        flex-direction: column;
+    }
+    .section__dealmarket__rightbox{
+        width: 100%;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: auto;
+    }
+    .section__dealmarket__rightbox__item{
+        width: 100%;
+    }
+    .section__accelerator__container{
+        flex-direction: column;
+        width: 90%;
+    }
+    .container__accelerator{
+        width: 100%;
+    }
+    .section__change__pre{
+        display: none;
+    }
+    .section__partner{
+        width: 100%;
+    }
+    .section__partner__container{
+        width: 90%;
+        flex-direction: column;
+    }
+    .section__partner__box{
+        width: 80%;
+        margin: auto;
+    }
+    .section9{
+        width: 80%;
+        margin: 0;
+    }
+    .div{
+        width: 100%;
+        flex-direction: column;
+    }
+    .section99{
+        width: 90%;
+        margin: 0;
+    }
+    .section__whous{
+        flex-direction: column;
+        width: 80%;
+    }
+    .section__man{
+        width: 90%;
+        flex-direction: column;
+    }
+    .section__man__text{
+        width: 100%;
+    }
+    .section__img{
+        flex-direction: column;
+    }
+    .experts{
+        width: 100%;
+    }
+    .experts__list{
+        width: 90%;
+        flex-direction: column;
+    }
+    .section13 h2{
+        font-size: 20px;
+    }
+    footer{
+        height: auto;
+        text-align: center;
+        padding: 30px 0px;
+    }
+    .footer__box{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer__list{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 320px) {
+    body{
+        width: 100%;
+    }
+    .header__navbar-list{
+        display: none;
+    }
+    .header__navbar{
+        width: 90%;
+    }
+    
+    .header__container{
+        width: 90%;
+    }
+    .header__box{
+        width: 100%;
+    }
+    .header__title{
+        font-size: 20px;
+    }
+    .section{
+        width: 90%;
+        padding: 15px 0px;
+    }
+}
