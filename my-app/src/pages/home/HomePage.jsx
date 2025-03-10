@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../../widgets/header/header'
+import Header from '../../widgets/header/Header'
 import SectionAnalytics from '../../shared/ui/sections/SectionAnalytics'
 import analyticsImg from '../../assets/kisspng-competitor-analysis-market-research-marketing-quan-5b102810d85456 1.png'
 import rocketImg from '../../assets/rocket 1.png'
