@@ -779,14 +779,15 @@ footer{
 @media(max-width: 320px) {
     body{
         width: 100%;
-    }
-    .header__navbar-list{
-        display: none;
+        overflow-x: hidden;
     }
     .header__navbar{
         width: 90%;
     }
-    
+
+    .header__navbar-list{
+        display: none;
+    }
     .header__container{
         width: 90%;
     }
@@ -794,10 +795,129 @@ footer{
         width: 100%;
     }
     .header__title{
-        font-size: 20px;
+        font-size: 30px;
     }
     .section{
         width: 90%;
+        height: auto;
         padding: 15px 0px;
+    }
+    .title__sections{
+        font-size: 30px;
+    }
+    .section__analytics{
+        width: 90%;
+    }
+    .section__analytics__box{
+        width: 100%;
+        height: auto;
+    }
+    .section__analytics--right{
+        width: 90%;
+        flex-direction: column;
+    }
+    .section__analytics--left{
+        width: 90%;
+        flex-direction: column;
+    }
+    .section__recomended{
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+    }
+    .container{
+        width: 80%;
+    }
+    .section__market__box__title{
+        font-size: 20px;
+    }
+    .section__dealmarket{
+        width: 90%;
+    }
+    .section__dealmarket__box{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .section__dealmarket__container{
+        flex-direction: column;
+    }
+    .section__dealmarket__rightbox{
+        width: 100%;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: auto;
+    }
+    .section__dealmarket__rightbox__item{
+        width: 100%;
+    }
+    .section__accelerator__container{
+        flex-direction: column;
+        width: 90%;
+    }
+    .container__accelerator{
+        width: 100%;
+    }
+    .section__change__pre{
+        display: none;
+    }
+    .section__partner{
+        width: 100%;
+    }
+    .section__partner__container{
+        width: 90%;
+        flex-direction: column;
+    }
+    .section__partner__box{
+        width: 80%;
+        margin: auto;
+    }
+    .section9{
+        width: 80%;
+        margin: 0;
+    }
+    .div{
+        width: 100%;
+        flex-direction: column;
+    }
+    .section99{
+        width: 90%;
+        margin: 0;
+    }
+    .section__whous{
+        flex-direction: column;
+        width: 80%;
+    }
+    .section__man{
+        width: 90%;
+        flex-direction: column;
+    }
+    .section__man__text{
+        width: 100%;
+    }
+    .section__img{
+        flex-direction: column;
+    }
+    .experts{
+        width: 100%;
+    }
+    .experts__list{
+        width: 90%;
+        flex-direction: column;
+    }
+    .section13 h2{
+        font-size: 20px;
+    }
+    footer{
+        height: auto;
+        text-align: center;
+        padding: 30px 0px;
+    }
+    .footer__box{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer__list{
+        flex-direction: column;
     }
 }
